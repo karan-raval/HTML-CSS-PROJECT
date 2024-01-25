@@ -1,0 +1,366 @@
+
+        *{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .bg{
+            width: 100%;
+            height: 150px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        header {
+            color: #fff;
+            display: flex;
+            width: 100%;
+            height: 700px;
+            background-image: url('img/bg.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            flex-direction: column;
+        }
+        nav {
+            width: 60%;
+            height: 200px;
+        }
+        nav ul{
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        nav ul li  {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            display: flex;
+        }
+        .red{
+            font-size: 25px;
+            font-family: cursive;
+            color: red;
+        }
+        .logo{
+            width: 30%;
+            height: 100px;
+        }
+        .logo img{
+            width: 100%;
+            height: 100%;
+        }
+        .textbox{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid red; */
+        }
+        .textbox .p1{
+            width: 350px;
+            height: 100px;
+            /* border: 1px solid yellow; */
+            font-family: 'Cedarville Cursive', cursive;
+            font-size: 42px;
+        }
+        .textbox .p2{
+            width: 310px;
+            height: 80px;
+            /* border: 1px solid yellow; */
+            font-family: 'Cedarville Cursive', cursive;
+            font-size: 42px;
+        }
+
+        .txth1 {
+            font-size: 100px;
+            font-family: 'Oswald', sans-serif;
+        }
+        .logo {
+            width: 100px; 
+            height: 100px;
+        }
+        .section1 {
+            width: 100%;
+            height: 800px;
+            /* border: 1px solid rgb(38, 17, 228); */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .section1 .halfimg{
+            width: 90%;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid black; */
+
+        }
+        .section1 .halfimg img {
+            width: 80%;
+            height: 100%;
+            /* border: 1px solid black; */
+        }
+        .section-text {
+            width: 45%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .section-text h2{
+            font-size: 20px;
+            line-height: 70px;
+            font-weight: normal
+        }
+        .section-text  .p2{
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+        .section-text a{
+            color: black;
+        }
+        .image-row {
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid red; */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: pink; 
+            color: crimson;
+            text-align: center;
+        }
+        .imgmain{
+            display: flex;
+            width: 100%;
+            height: 200px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .heading{
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+        .image {
+            /* border: 1px solid seagreen; */
+            text-align: center;
+        }
+        .centered-section {
+            /* border: 1px solid red; */
+            /* text-align: center; */
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 100px;
+            background-color: #f3f3f3;
+        }
+        .text2{
+            font-size: 30px;
+            font-family: cursive;
+            color: crimson; 
+            font-weight: normal;
+        }
+        .ptext{
+            text-align: center;
+            color: black;
+            width: 300px;
+            height: 55px;
+        }
+
+        .four-images {
+            width: 100%;
+            height: 800px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .four-images .image {
+            width: 50%;
+            height: 400px;
+
+        }
+        .four-images .image img {
+            width: 100%;
+            height: 100%;
+            height: inherit;
+        }
+        .image-row1{
+            width: 100%;
+            height: 200px;
+            /* border: 1px solid blueviolet; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .mainheader2{
+            width: 100%;
+            height: 70px;
+            /* border: 1px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .image-row1 image{
+            width: 20%;
+            height: 100px;
+            /* border: 1px solid red; */
+        }
+        .section2 .image {
+            width: auto;
+            height: 90px;
+            /* border: 1px solid black; */
+        }
+        .section-text{
+            /* border: 1px solid red; */
+            width: 100%;
+            height: 800px;
+        }
+        .section-text .h22{
+            color: crimson; 
+            font-family: 'Cedarville Cursive', cursive;
+            /* border: 1px solid red; */
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .section-text .p22{
+            /* border: 1px solid red; */
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .section-text .a22{
+        padding-top: 20px;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid black; */
+            border-top:none;
+            border-left:none;
+            border-right:none;
+        }
+        .section2 {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(247, 236, 231);
+            align-items: center;
+        }
+        .section2 img {
+            width: 50%;
+            height: inherit;
+            /* border: 1px solid black; */
+        }
+        footer{
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 350px;
+        display: flex;  
+        justify-content: space-around;
+        align-items: center;
+        /* background-color:whitesmoke;  */
+}
+.row {
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-around; */
+    width: 90%;
+    height: 200px;
+}
+.h1text{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 80%;
+    display: flex;
+    font-size: 20px;
+}
+.h2text{
+    height: 60px;
+}
+.row-item2 {
+    width: 20%;
+    /* border: 1px solid black; */
+    color: crimson;
+}
+.fp2{
+    font-size: 20px;
+    color: black;
+    line-height: 20px;
+    
+}
+.fa-brands{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.h3text{
+    /* margin-bottom: 20px; */
+    height: 60px;
+}
+.row-item3 {
+    width: 29%;
+    /* border: 1px solid black; */
+    color: crimson;
+
+}
+.fp23{
+    color: black;
+    font-size: 20px;
+}
+.h1text{
+    text-align: center;
+    color: crimson;
+}
+.h4text{
+    color: crimson;
+    height: 60px;
+}
+.f34{
+    font-size: 20px;
+    color: black;
+    /* line-height: 20px; */
+    height: 80px;
+}
+.row-item4 {
+    width: 24%;
+    height: 250px;
+    /* border: 1px solid black; */
+    color: crimson;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: crimson;
+    color: white;
+    
+}
