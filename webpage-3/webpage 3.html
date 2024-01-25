@@ -1,0 +1,471 @@
+ <html>
+    <head>
+        <title>
+            webpage-3
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            header{
+                width: 100%;
+                height: 850px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                /* padding-top: 10px; */
+            }
+            .logo{
+                width: 20%;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                color: rgb(30, 15, 243);
+            }
+            .logo img{
+                width: 100px;
+                height: 90px;
+                margin-top: 15px;
+                margin-left: 40%;
+            }
+            .write{
+                margin-left: 10px;
+                margin-top: 20px;
+                color: white;
+            }
+            .write h1{
+                font-family: 'Oswald', sans-serif;
+            }
+            nav {
+                width: 50%;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                font-size: 25px;
+            }
+            nav ul{
+                display: flex;
+            }
+            nav ul .fa-brands{
+                color: white;
+                letter-spacing: 15px;
+                margin-top: 35px;
+                font-size: 20px;
+            }
+            nav ul li{
+                display: flex;
+                justify-content: center;
+                padding: 30px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            .bg{
+                width: 100%;
+                height: 850px;
+                display: flex;
+                justify-content: space-between;
+                background-image: url(image/bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+            .bg .text{
+                width: 51%;
+                height: 335px;
+                display: flex;
+                flex-wrap: wrap;
+                color:rgb(5, 185, 242);
+                position: absolute;
+                top: 41%;
+                left: 15%;
+            }
+            .txth1{
+                font-size: 100px;
+                font-family: 'Oswald', sans-serif;
+            }
+            .txtp1{
+                font-size: 42px;
+                font-family: 'Oswald', sans-serif;
+            }
+            .halftext{
+                width: 100%;
+                height: 800px;
+                display: flex;
+            }
+            .halftext.sd1{
+                height: 800px;
+                width: 50%;
+            }
+            .sd1 img{
+                height: 100%;
+                width: 100%;
+            }
+            .sd2{
+                width: 50%;
+                height: 800px;
+                background-color: rgb(7, 22, 92);
+                color: white;
+                /* text-align: center; */
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .dh1{
+                font-size: 50px;
+            }
+            .text1{
+            width: 80%;
+            height: 200px;
+            /* border: 1px solid black; */
+            color: rgb(5, 185, 242);
+            display: flex;
+            flex-wrap: wrap;
+            justify-items: center;
+            /* justify-content: space-between; */
+            }
+            .dp1{
+            color: white;
+            line-height: 30px;
+            }
+            .dh1{
+                padding-bottom: 30px;
+            }
+            .update{
+                width: 100%;
+                height: 900px;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                background-color: rgb(3, 15, 56);
+                align-items: center;
+                justify-content: space-around;
+            }
+             .heading{
+                width: 30%;
+                height: 250px;
+                font-size: 50px;
+                font-family: 'Oswald', sans-serif;
+                color: rgb(5, 185, 242);
+                text-align: center;
+                top: 10%;
+                position: absolute;
+             }  
+             .mainupdate{
+                width: 100%;
+                height: inherit;
+                /* border: 1px solid brown; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-evenly;
+             }
+            .subupdate1{
+                width: 20%;
+                height: 300px;
+                /* border: 1px solid blue; */
+                background-image: url(image/1.jpg);
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
+            }
+            .subupdate2{
+                width: 20%;
+                height: 300px;
+                /* border: 1px solid blue; */
+                background-image: url(image/2.jpeg);
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
+            }
+            .subupdate3{
+                width: 20%;
+                height: 300px;
+                /* border: 1px solid blue; */
+                background-image: url(image/3.jpg);
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
+            }
+            .date{
+                color: white;
+                width: 80%;
+                height: 25px;
+                /* border: 1px solid red; */
+                font-family: 'Oswald', sans-serif;
+            }
+            .subtitle{
+                color: white;
+                font-size: 26px;
+                width: 90%;
+                height: 90px;
+                /* border: 1px solid red; */
+                font-family: 'Oswald', sans-serif;
+            }
+            .button1{
+                width: 10%;
+                height: 40px;
+                position: absolute;
+                top: 80%;
+                left:45%;
+                border-radius: 50px;
+                border: 3px solid rgb(5, 185, 242);
+                color: rgb(5, 185, 242);
+                background-color: rgb(7, 22, 92);
+            }
+            .bgimage{
+                width: 100%;
+                height: 700px;
+                /* border: 1px solid red; */
+                background-image: url(image/sub.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .roster{
+                width: 15%;
+                height: 200px;
+                font-size: 72px;
+                color: rgb(5, 185, 242);
+                /* border: 1px solid red; */
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+            }
+            .our{
+                width: 60%;
+                height: 50px;
+                border-radius: 50px;
+                border: 3px solid rgb(5, 185, 242);
+                color: rgb(5, 185, 242);
+                background-color: transparent;
+                text-align: center;
+            }
+            footer{
+                width: 100%;
+                height: 700px;
+                /* border: 1px solid blue; */
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(7, 22, 92);
+                /* justify-content: center; */
+                align-items: center;
+
+            }
+            .mainfooter{
+                width: 100%;
+                height: 600px;
+                /* border: 1px solid brown; */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .md1{
+                width: 100%;
+                height: 120px;
+                /* border: 1px solid yellow; */
+                font-size: 50px;
+                color: rgb(5, 185, 242);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Oswald', sans-serif;
+            }
+            .md2{
+                width: 100%;
+                height: 40px;
+                /* border: 1px solid yellow; */
+                font-size: 23px;
+                color: rgb(5, 185, 242);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-family: 'Oswald', sans-serif;
+            }
+         form{
+                width: 100%;
+                height: 80px;
+                /* border: 1px solid yellow; */
+                font-size: 20px;
+                color: rgb(5, 185, 242);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-evenly;
+                font-family: 'Oswald', sans-serif;
+            }
+            input{
+                background: transparent;
+                border: none;
+                border-bottom: 2px solid white;
+            }
+            .om{
+                width: 120px;
+                height: 40px;
+                background-color: white;
+                color: black;
+                border-radius: 100px;
+            }
+            ::placeholder{
+                color: white;
+            }
+            hr{
+                color: white;
+                width: 100%;
+            }
+            .subfooter{
+                width: 100%;
+                height: 200px;
+                /* border: 1px solid green; */
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .fad{
+                width: 10%;
+                height: 50px;
+                /* border: 1px solid yellow; */
+                color: white;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .fbd{
+                width: 10%;
+                height: 50px;
+                /* border:1px solid yellow; */
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .fcd{
+                width: 25%;
+                height: 50px;
+                /* border: 1px solid yellow; */
+                color: white;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .fa-brands{
+                color: white;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <div class="bg">
+            <div class="logo">
+                <img src="image/logo11.jpg" alt="">
+                <div class="write"><h1>REVO</h1> <p>eSports Team</p>  
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">updates</a></li>
+                    <li><a href="">roster</a></li>
+                    <li><a href="">contact</a></li>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </ul>
+            </nav>
+            <div class="text">
+                 <h1 class="txth1">Revolutionizing the eSports World</h1>
+                <p class="txtp1">Official Home of REVO Competitive Gaming</p>
+            </div>
+         </div>
+        </header>
+        <section class="halftext">
+            <div class="sd1">
+                <img src="image/half.jpg" alt="">
+            </div>
+            <div class="sd2"> <div class="text1"><h1 class="dh1">About Us</h1>
+                <p class="dp1">I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
+                Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your 
+                users know a little more about you.</p></div>
+            </div>
+        </section>
+        <section class="update">
+            <div class="heading">Latest Updates</div>
+            <div class="mainupdate">
+            <div class="subupdate1">
+                <div class="date">
+                    May 16
+                </div>
+                <div class="subtitle">Ultimate Warship: The Leviathan Carrier XT</div>
+            </div>
+            <div class="subupdate2"><div class="date">
+                    May 16
+                </div>
+                <div class="subtitle">Max out Your Exoskeleton & Never Die Again</div>
+            </div>
+            <div class="subupdate3"><div class="date">
+                May 16
+            </div>
+            <div class="subtitle">How to Build a Lasting Moonrock Mine</div>
+            </div>
+            </div>
+            <button class="button1">More Updates</button>
+        </section>
+        <section class="bgimage">
+            <div class="roster">Roster
+                <button class="our">Our Crew</button>
+            </div>
+        </section>
+        <footer>
+            <div class="mainfooter">
+                <div class="md1">Join Our Mailing List</div>
+                <div class="md2">Be the First to Hear All the Latest Revo News</div>
+            
+            <div class="contact">
+                <form>
+                    <input type="text"  placeholder="Name"required="required"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="email" placeholder="Email*" required="required">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="om">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+            <div class="subfooter">
+                <div class="fad">info@mysite.com</div>
+                <div class="fbd"><i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>    
+                <div class="fcd">© 2035 by REVO. Powered and secured by Wix
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
