@@ -1,0 +1,528 @@
+<html>
+    <head>
+        <title>
+            web page -2
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header{
+                width: 100%;
+                height: 100px;
+                background-color: rgb(245, 245, 245);
+                position: sticky;
+                top: 0;
+                z-index: 1;
+            }
+            .a{
+                width: 18%;
+                height: 100px;
+                font-size: 30px;
+                text-align: center;
+                padding-top: 20px;
+                float: left;
+                margin-left: 20px;
+            }
+            nav{
+                width: 50%;
+                height: 100px;
+                float: right;
+
+            }
+            nav ul li{
+                display: inline-block;
+                font-size: 20px;
+                padding-top: 5%;
+                padding-left: 5%;
+
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: black;
+            }
+            .bg-front{
+                width: 100%;
+                height: 750px;
+                background-color: rgb(245, 245, 245);
+                position: relative;
+            }
+            .abc{
+                width: 90%;
+                height: 700px;
+                margin-left: 5%;
+                background-image: url(image/bg-home.jpeg);
+                background-attachment: fixed;
+            }
+            img{
+                width: 90%;
+                height: 700px;
+                margin-left: 5%;
+            }
+            .c{
+                width: 500px;
+                height: 450px;
+                position: absolute;
+                top: 15%;
+                right: 10%;
+                color: rgb(231, 9, 9);
+                font-size: 80px;
+            }
+            button{
+                width: 150px;
+                height: 30px;
+                margin-top: 10%;
+                margin-left: 30%;
+                background-color: rgb(30, 30, 30);
+                font-size: 15px;
+                color: wheat;
+            }
+            .half-img{
+                width: 100%;
+                height: 600px;
+                position: relative;
+                background-color: rgb(245, 245, 245);
+            }
+            .aa{
+                width: 50%;
+                height: 600px;
+                background-image: url(image/kitchen-image.jpg);
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                margin-left: 5%;
+            }
+            .bb{
+                width: 40%;
+                height: 600px;
+                background-color: rgb(245, 245, 245);
+                position: absolute;
+                right: 5%;
+            }
+            h1{
+                font-size: 40px;
+                margin-top: 40%;
+                text-align: center;
+                color: rgb(30, 30, 30);
+                text-transform: capitalize;
+            }
+            p{
+                font-size: 20px;
+                margin-top: 10%;
+                margin-left: 9px;
+            }
+            .back{
+                background-color: rgb(30, 30, 30);
+                color: wheat;
+            }
+            .second{
+                width: 100%;
+                height: 400px;
+                background-color: rgb(245, 245, 245);
+                position: relative;
+            }
+            .sa{
+                position: absolute;
+                top: 0;
+                left: 40%;
+            }
+            .eee{
+                color: red;
+            }
+            .sb{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 60%;
+                left: 10.6%;
+                text-align: center;
+                color: rgb(162, 96, 40);
+            }
+            .sc{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 60%;
+                left: 32.5%;
+                text-align: center;
+                color: rgb(162, 96, 40);
+            }
+            .sd{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 60%;
+                left: 54%;
+                text-align: center;
+                color: rgb(162, 96, 40);
+            }
+            .se{
+                width: 200px;
+                height: 200px;
+                position: absolute;
+                top: 60%;
+                right: 9.3%;
+                text-align: center;
+                color: rgb(162, 96, 40);
+            }
+            .ssa{
+                color: black;
+            }
+            .Service{
+                width: 100%;
+                height: 800px;
+                position: relative;
+                background-color: rgb(245, 245, 245);
+            }
+            .sea{
+                position: absolute;
+                top: 5%;
+                left: 36.5%;
+            }
+            .ssea{
+                color: red;
+                font-size: 50px; 
+            }
+            .seb{
+                width: 25%;
+                height: 550px;
+                position: absolute;
+                bottom: 0;
+                right: 7.5%;
+                background-image: url(image/kiitchen.webp);
+                bottom: 10%;
+            }
+            .seb1{
+                margin-top: 90%;
+                color: red;
+            }
+            .sec{
+                width: 25%;
+                height: 550px;
+                position: absolute;
+                bottom: 0;
+                background-image: url(image/interiors.webp);
+                left: 37.5%;
+                bottom: 10%;
+            }
+            .sec1{
+                margin-top: 90%;
+                color: red;
+            }
+            .sed{
+                width: 25%;
+                height: 550px;
+                position: absolute;
+                bottom: 0;
+                left: 7.5%;
+                bottom: 10%;
+                background-image: url(image/bathroom.webp);
+            }
+            .sed1{
+                margin-top: 90%;
+                color: red;
+            }
+            .sebb{
+                width: 150px;
+                height: 30px;
+                background-color: rgb(30, 30, 30);
+                font-size: 15px;
+                color: wheat;
+                bottom: 10px;
+                position: absolute;
+                right: 45%;
+            }
+            .se2{
+                width: 100%;
+                height: 750px;
+                position: relative;
+            }
+            .sed2{
+                left: 40%;
+                top: 15%;
+                position: absolute;
+            }
+            .sep1{
+                color: red;
+                text-align: center;
+                font-size: 40px;
+            }
+            .fa-solid{
+                font-size: 60px;
+                margin-left: 40%;
+            }
+            .seb2{
+            position: absolute;
+            top: 50%;
+            width: 240px;
+            height: 250px;
+            left: 16%;
+            }
+            .seb3{
+            position: absolute;
+            top: 50%;
+            width: 240px;
+            height: 250px;
+            left: 41.6%;
+            }
+            .seb4{
+            position: absolute;
+            top: 50%;
+            width: 240px;
+            height: 250px;
+            right: 15.5%;
+            }
+            .sept22{
+                color: rgb(162, 96, 40);
+            }
+            .sept23{
+                font-size: 17px;
+            }
+            footer{
+                width: 100%;
+                height: 600px;
+                background-color: rgb(30, 30, 30);
+                position: relative;
+            }
+            .fd1{
+                position: absolute;
+                width: 50%;
+                height: 400px;
+                color: white;
+                top: 10%;
+                left: 20px;
+            }
+            .fp1{
+                color: rgb(243, 5, 5);
+                font-size: 30px;
+                text-align: center;
+            }
+            .fp1:hover{
+                font-size: 35px;
+            }
+            .fp2{
+                color: rgb(7, 240, 189);
+                font-size: 25px;
+            }
+            .fp3{
+                font-size: 28px;
+                color: rgb(205, 238, 17);
+                font-style: italic;
+
+            }
+            .fd2{
+                position: absolute;
+                width: 50%;
+                height: 350px;
+                right: 0;
+                text-align: center;
+                top: 17%;
+            }
+            form{
+                color: white;
+                font-size: 18px;
+            }
+        .fbb1{
+            background-color: rgb(30, 30, 30);
+            color: white;
+            width: 40%;
+            height: 50px;
+            position: absolute;
+            right: 30%;
+            bottom: 1%;
+        }
+        .last11{
+            width: 100%;
+            height: 600px;
+            border: 1px solid black;
+            position: relative;
+            background-color: rgb(245, 245, 245);
+        }
+        .last1{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-image: url(image/icon\ 1.webp);
+            background-position: center;
+            background-size: cover;
+            top: 20%;
+            left: 20%;
+        }
+        .last2{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-image: url(image/icon\ 2.webp);
+            background-position: center;
+            background-size: cover;
+            left: 37.5%;
+            top: 20%;
+        }
+        .last3{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-image: url(image/icon\ 3.webp);
+            background-position: center;
+            background-size: cover;
+            left: 55.5%;
+            top: 20%;
+        }
+        .last4{
+            width: 120px;
+            height: 100px;
+            position: absolute;
+            background-image: url(image/icon\ 4.webp);
+            background-position: center;
+            background-size: cover;
+            right: 20%;
+            top: 20%;
+        }
+        .last5{
+            position: absolute;
+            bottom: 20%;
+            left: 15%;
+        }
+        .aaaaa{
+            color: black;
+        }
+        .last6{
+            right: 10%;
+            bottom: 20%;
+            position: absolute;
+        }
+        .fa-brands{
+            font-size: 20px;
+            padding-left: 4px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+                <div class="a">
+                    A&K Remodeling
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Work</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">123-456-7890</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <section class="bg-front">
+           <div class="abc"></div>
+            <div class="c"> Exceptional Home
+                Remodeling & Renovations
+            <button>get a free estimate</button>
+            </div>
+        </section>
+        <section class="half-img">
+            <div class="aa">
+                <div class="bb">
+                    <h1>
+                        The Leading Bay Area Remodeling Company
+                        </h1>
+                    <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                <button class="back">more about us</button>
+                </div>
+            </div>
+        </section>
+        <section class="second">
+            <div class="sa">
+                 <h1 class="eee"> why choose us</h1>
+            </div>
+            <div class="sb">
+                <h2>Easy Financing</h2>
+                <p class="ssa">I'm a paragraph. Click here to add your own text.</p>
+            </div>
+            <div class="sc">
+                <h2>Free, At Home Consultations</h2>
+                <p class="ssa">I'm a paragraph. Click here to add your own text.</p></div>
+            <div class="sd">
+                <h2>Award Winning Service</h2>
+                <p class="ssa">I'm a paragraph. Click here to add your own text.</p>
+            </div>
+            <div class="se">
+                <h2>Licensed & Insured</h2>
+                 <p class="ssa">I'm a paragraph. Click here to add your own text.</p>
+            </div>
+        </section>
+        <section class="Service">
+            <div class="sea">
+                <h2 class="ssea">
+                    Our Services Include
+                </h2>
+            </div>
+            <div class="seb"><h1 class="seb1">Kitchens</h1></div>
+            <div class="sec"><h1 class="sec1">Interiors</h1></div>
+            <div class="sed"><h1 class="sed1">Bathrooms</h1></div>
+            <button class="sebb">see all services</button>
+        </section>
+        <section class="se2">
+            <div class="sed2">
+                <p class="sep1">Satisfied Customers</p>
+            </div>
+            <div class="seb2">
+                <i class="fa-solid fa-quote-right"></i>
+                <p class="sept23">
+                    “I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
+                     <p class="sept22">Dave Reddington</p>
+            </div>
+            <div class="seb3">
+                <i class="fa-solid fa-quote-right"></i>
+                <p class="sept23">
+                    “I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
+                    <p class="sept22">Amelia Banks</p>
+            </div>
+            <div class="seb4">
+                <i class="fa-solid fa-quote-right"></i>
+                <p class="sept23">
+                    “I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
+                <p class="sept22">Kenny Stutes</p>
+            </div>
+        </section>
+        <footer>
+            <div class="fd1">
+                <p class="fp1">
+                Let's Discuss Your Next Project!!!!
+                </p>
+                <p class="fp2">Fill out the form, or call us to set up a free in-home consultation.</p>
+                <p class="fp3"><b>Service Areas:</b><br>
+                San Francisco, Santa Clara, Alameda, San Mateo 500 Terry Francine Street San Francisco, CA 94158 info@mysite.com 123-456-7890
+               </p>
+            </div>
+            <div class="fd2">
+                <form>
+                    <label>First Name*:</label>&nbsp;<input type="text" placeholder="type your first name here"required><br><br>
+                    <label>Last Name*:</label>&nbsp;<input type="text" placeholder="type your last name here"required><br><br>
+                    <label>Email*:</label>&nbsp;<input type="email" placeholder="type your email here"required><br><br>
+                    <label>Phone:</label>&nbsp;<input type="tel" placeholder="type your phone number here"required><br><br>
+                    <label>Address:</label>&nbsp;<input type="text" placeholder="type your address here"><br><br>
+                    <label>Subject:</label>&nbsp;<input type="text" placeholder="type your subject here"><br><br>
+                    <label>Type Your Message Here:</label>&nbsp;<input type="text" placeholder="type your message here"required>
+                    <button class="fbb1">Submit</button>
+                </form>
+            </div>
+        </footer>
+        <section  class="last11">
+        <div class="last1"></div>
+        <div class="last2"></div>
+        <div class="last3"></div>
+        <div class="last4"></div>
+        <div class="last5"><p class="lastt5">© 2035 by M&B Remodeling. Powered and secured by <a class="aaaaa" href="">Wix</a></p></div>
+            <div class="last6">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </section>
+    </body>
+</html>
